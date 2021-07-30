@@ -174,10 +174,6 @@ root.geometry("1320x720")
 window = Frame(root, padx=0, pady=10, borderwidth=1, relief=SUNKEN)
 window.grid(row=0, column=0, columnspan=25, padx=25)
 
-# Instructions text
-f = open('instructions.txt', 'r')
-text = f.read()
-
 # Creating buttons grid
 
 rows = 25
@@ -213,6 +209,9 @@ exit_button = Button(root, text="EXIT", bg=button_bg,
                      activebackground=active_bg, height=1, width=7, command=exit_app)
 
 # Added instructions button
+
+f = open('instructions.txt', 'r')
+text = f.read()
 
 instruct_button = Button(root, text="Instructions", bg='#16E1D4', activebackground=active_bg, height=1, width=9,
                          command=instruction_message)
