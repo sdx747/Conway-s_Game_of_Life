@@ -1,15 +1,15 @@
 Conway's Game of Life follows three rules:
 
-1.  Any alive cell with two or three alive neighbours survives.
+1.  Any live cell with two or three live neighbours survives.
 
-2.  Any dead cell with three alive neighbours becomes an alive
+2.  Any dead cell with three live neighbours becomes an live
      cell.
 
-3.  All other alive cells die in the next generation.
+3.  All other live cells die in the next generation.
      Similarly, all other dead cells stay dead.
 
-In this game, Black cells are dead, Yellow cells are alive.
+In this game, Black cells are dead, Yellow cells are live.
 
-Click on any cell to change it's state from dead to alive and vice versa, or click the 'RANDOM' button to generate a random sequence of cells.
+Click on any cell to change it's state from dead to live and vice versa, or click the 'RANDOM' button to generate a random sequence of cells.
 
 Click the 'START' button to start the simulation and enjoy the show.
