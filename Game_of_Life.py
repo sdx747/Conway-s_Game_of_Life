@@ -207,8 +207,12 @@ pause_button = Button(root, text="PAUSE", bg=button_bg, activebackground=active_
                       command=pause)
 fill_button = Button(root, text="FILL", bg=button_bg, activebackground=active_bg, height=1, width=7,
                      command=lambda: visualise_grid(fill_grid()))
-reset_button = Button(root, text="RESET", bg=button_bg, activebackground=active_bg, height=1, width=7, command=reset)
-exit_button = Button(root, text="EXIT", bg=button_bg, activebackground=active_bg, height=1, width=7, command=exit_app)
+reset_button = Button(root, text="RESET", bg=button_bg,
+                      activebackground=active_bg, height=1, width=7, command=reset)
+exit_button = Button(root, text="EXIT", bg=button_bg,
+                     activebackground=active_bg, height=1, width=7, command=exit_app)
+
+# Added instructions button
 
 instruct_button = Button(root, text="Instructions", bg='#16E1D4', activebackground=active_bg, height=1, width=9,
                          command=instruction_message)
