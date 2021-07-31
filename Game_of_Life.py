@@ -4,7 +4,7 @@ import random
 import threading
 
 
-# Creating the functions
+# Defining the functions
 
 
 def random_grid():
@@ -89,6 +89,7 @@ def updating_grid():
     if grid_sum() > 0:
         current_grid = get_grid()
         new_grid = [[0 for _ in range(columns)] for _ in range(rows)]
+        
         for i in range(rows):
             for j in range(columns):
                 neighbours = 0
